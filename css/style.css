@@ -119,7 +119,7 @@ app {
 app header {
   display: block;
   position: relative;
-  background-image: url(https://www.surveyearth.com/assets/public/images/surveyors/banner_flags.gif);
+  background-image: url(http://api.ning.com:80/files/pXYy9BgiqixptHRaCb2OAlCannY-p4iIl5L0l4*oKcW6gSTrg0mDK41ucFzbWB4yk*hmbqaquoeHBqSsDfzpLEgTZNOlP5Lp/searth2.gif);
   background-color: transparent;
   padding: 10px;
   width: calc(100% - 40px);
