@@ -54,7 +54,7 @@ p.signpainter{
 }
 
 body {
-  background: url("https://s3.amazonaws.com/ezusrevent/98E3864AA5DA4438442955208395F5CD834105677DA8A602CC.png") no-repeat top center fixed;
+  background: url("http://api.ning.com:80/files/pXYy9Bgiqix6X8vTcgcpeA6KXOj5zU6NQIxKFMaNhvVU690PFogsHOn3r49jPsGY7wJ1K6BhqPvo5crWfy*0McUu0hFJXdLY/InternationalSurveyorsWeek2018.png") no-repeat top center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -119,7 +119,7 @@ app {
 app header {
   display: block;
   position: relative;
-  background-image: url(http://api.ning.com:80/files/pXYy9BgiqiwhrSQm69tumTPGBPus6Ekm3a8LfdwYTmNAHbmb-t1Ra*GBrmk74-z9fzE3Zxhr*svfVZ6feW2-3733r6m2c45a/internationalsurveyorsweek.png);
+  background-image: url(https://www.surveyearth.com/assets/public/images/surveyors/banner_flags.gif);
   background-color: transparent;
   padding: 10px;
   width: calc(100% - 40px);
