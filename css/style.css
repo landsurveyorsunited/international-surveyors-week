@@ -370,11 +370,11 @@ app appBody article section #postButtons span#likes {
 }
 
 .menu-dropdown li .icon {
-	color: #777;
+	color: #fff;
 }
 
 .menu-dropdown li:hover .icon {
-	color: #fff;
+	color: #000;
 }
 
 
@@ -458,7 +458,7 @@ input#menu[type="checkbox"] {
 	width: 250px;
 	height: 100vh!important;
   transition: all 0.45s cubic-bezier(0.77, 0, 0.175, 1);
-  background-color: #000;
+  background-color: #dd4b39;
 	z-index: 999;
 }
 
