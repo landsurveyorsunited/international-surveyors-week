@@ -10,7 +10,11 @@
 
       <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<!-- Include Font Awesome v4.7.0 -->
+<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
+<!-- Custom Style -->
+<link href="http://landsurveyorsunited.github.io/share-buttons/src/css/ibacor-sosmed-button.css" rel="stylesheet">
   
 </head>
 
@@ -57,7 +61,7 @@
 </nav>
   
 </div>  
-  
+  <div id="unik" data-ayoshare="https://landsurveyorsunited.github.io/international-surveyors-week/index.html"></div>
 <app>
   <appBody>
     <header> 
@@ -372,7 +376,8 @@
 
     <script  src="js/index.js"></script>
 <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+<!-- jQuery Awesome Sosmed Share Button -->
+<script src="http://landsurveyorsunited.github.io/share-buttons/src/js/ibacor_share.min.js"></script>
 
 <script>
   $('.nav-toggle').click(function(e) {
@@ -383,6 +388,50 @@
 
 });
   </script>
+<!-- By ID -->
+<div id="unik" data-ayoshare="https://landsurveyorsunited.github.io/international-surveyors-week/index.html"></div>
+
+<script>
+    $(function() {
+    
+        $(".anu").ayoshare({
+            counter: true,
+            button: {
+                google : true,
+                facebook : true,
+                pinterest : true,
+                linkedin : true,
+                twitter : true,
+                email : true,
+                whatsapp : true,
+                telegram : true,
+                line : true,
+                bbm : true,
+                viber : true,
+                sms : true
+            }
+        });
+        
+        $("#unik").ayoshare({
+            button: {
+                google : true,
+                stumbleupon : true,
+                facebook : true,
+                pinterest : true,
+                bufferapp : true,
+                reddit : true,
+                vk : true,
+                pocket : true,
+                twitter : true,
+                flipboard : true,
+                digg : true,
+                telegram : true,
+                sms : true
+            }
+        });
+        
+    });
+</script>
 <script src="https://my.hellobar.com/8f583afb2bf2bcaa4daa19afe712aa530bf5635a.js" type="text/javascript" charset="utf-8" async="async"></script>
 
 </body>
